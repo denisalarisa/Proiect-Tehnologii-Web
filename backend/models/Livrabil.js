@@ -19,7 +19,7 @@ const Livrabil = sequelize.define("livrabil", {
         type: Sequelize.STRING
     },
     data_livrabil: {
-        type: Sequelize.DATE
+        type: Sequelize.DataTypes.DATE
     }
 });
 

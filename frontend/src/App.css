@@ -1,0 +1,64 @@
+/* Navbar simplu */
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+
+.navInner{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 12px 0;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+
+.brandDot{
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--primary);
+  box-shadow: 0 0 0 6px rgba(37,99,235,.12);
+}
+
+.navLinks{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.navLink{
+  padding: 8px 10px;
+  border-radius: 10px;
+  color: var(--muted);
+  border: 1px solid transparent;
+}
+
+.navLink:hover{
+  background: rgba(17,24,39,.03);
+  color: var(--text);
+}
+
+.navLinkActive{
+  color: #1e40af;
+  border-color: rgba(37,99,235,.25);
+  background: rgba(37,99,235,.07);
+}
+
+.footer{
+  padding: 18px 0;
+  color: var(--muted);
+  font-size: 12px;
+}
